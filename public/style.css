@@ -1,0 +1,9 @@
+.place{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    border-color: gray;
+    bottom: 0px;
+    background-color: gray;
+    color: black;
+}

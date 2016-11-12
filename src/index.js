@@ -1,18 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Dropdown from './Dropdown';
-import User from './User';
-import Editor from './Editor';
 import './index.css';
 
+var EXAMPLE_USER = {userid: 1, username: "lala"};
 
 ReactDOM.render(
-  <div> 
-    <App /> 
-    <Dropdown /> 
-    <User name = "Nitin" pic="./head.jpeg" />
-    <Editor />
-  </div>,
+    <App cells={[]} user={EXAMPLE_USER} />,
   document.getElementById('root')
 );
